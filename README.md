@@ -11,7 +11,7 @@ GRANT replication slave ON *.* TO'root'@'%' identified by 'root';
 * flush privaliges
 
 ```code
-
+if needed
 ```
 
 * view master info
