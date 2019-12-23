@@ -1,0 +1,10 @@
+[mysqld]
+log-bin=mysql-bin
+log-bin-index=mysql-bin.index
+server-id=1
+sync_binlog=1
+binlog_format=mixed
+binlog-do-db=demo
+binlog-ignore-db=mysql
+binlog-ignore-db=performance_schema
+binlog-ignore-db=information_schema

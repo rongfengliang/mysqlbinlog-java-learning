@@ -1,0 +1,8 @@
+[mysqld]
+server-id=2
+log-bin=mysql-bin
+relay-log-index=slave-relay-bin.index
+relay-log=slave-relay-bin
+sync_master_info=1
+sync_relay_log=1
+sync_relay_log_info=1
